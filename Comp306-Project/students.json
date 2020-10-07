@@ -1,0 +1,130 @@
+{
+  "ID": "00128",
+  "name": "Zhang",
+  "department":  "Comp. Sci.",
+  "total_credit":102,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [], "grade": "A", "credits": 4 },
+     { "course_id": "CS-347", "course_title": "Database System Concepts",  "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": ["CS-101","CS-190","CS-315"], "grade": "A-", "credits": 3 }
+  ],
+  "advisor": "Katz"
+}
+{
+  "ID": "12345",
+  "name": "Shankar",
+  "department":  "Comp. Sci.",
+  "total_credit":32,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [],"grade": "C", "credits": 4 },
+     { "course_id": "CS-190", "course_title": "Game Design",  "instructor": "Srinivasan",  "semester":"Spring-2009" ,"prereq": ["CS-101"], "grade": "A", "credits": 4 },
+     { "course_id": "CS-315", "course_title": "Robotics",  "instructor": "Brandt",  "semester":"Spring-2010" ,"prereq": ["CS-101","CS-190"] ,"grade": "A", "credits": 3 },
+     { "course_id": "CS-347", "course_title": "Database System Concepts",  "instructor": "Srinivasan",  "semester":"Fall-2009" ,"prereq":["CS-101","CS-190","CS-315"], "grade": "A", "credits": 3 }
+  ],
+  "advisor": "Srinivasan"
+}
+{
+  "ID": "19991",
+  "name": "Brandt",
+  "department":  "History",
+  "total_credit":80,
+  "takes": [
+     { "course_id": "HIS-351", "course_title": "World History", "instructor": "El Said",  "semester":"Spring-2010" , "prereq": [],"grade": "B", "credits": 3 }
+  ],
+  "advisor": "Califieri"
+}
+{
+  "ID": "23121",
+  "name": "Chavez",
+  "department":  "Finance",
+  "total_credit":110,
+  "takes": [
+     { "course_id": "FIN-201", "course_title": "Investment Banking", "instructor": "Wu",  "semester":"Spring-2010" , "prereq": [],"grade": "C+", "credits": 3 }
+  ],
+  "advisor": "Singh"
+}
+{
+  "ID": "44553",
+  "name": "Peltier",
+  "department":  "Physics",
+  "total_credit":56,
+  "takes": [
+     { "course_id": "PHY-101", "course_title": "Physical Principles", "instructor": "Einstein",  "semester":"Fall-2009" , "prereq": [],"grade": "B-", "credits": 3 }
+  ],
+  "advisor": "Einstein"
+}
+{
+  "ID": "45678",
+  "name": "Levy",
+  "department":  "Physics",
+  "total_credit":46,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [],"grade": "F", "credits": 4 },
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Katz",  "semester":"Spring-2010" , "prereq": [],"grade": "B+", "credits": 4 },
+     { "course_id": "CS-319", "course_title": "Image Processing", "instructor": "Katz",  "semester":"Spring-2010" , "prereq": ["CS-101"],"grade": "B", "credits": 3 }
+  ],
+  "advisor": "Einstein"
+}
+{
+  "ID": "54321",
+  "name": "Williams",
+  "department":  "Comp. Sci.",
+  "total_credit":54,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [], "grade": "A-", "credits": 4 },
+     { "course_id": "CS-190", "course_title": "Game Design",  "instructor": "Brandt",  "semester":"Spring-2009" , "prereq": ["CS-101"], "grade": "B+", "credits": 4}
+  ],
+  "advisor": "Katz"
+}
+{
+  "ID": "55739",
+  "name": "Sanchez",
+  "department":  "Music",
+  "total_credit": 38,
+  "takes": [
+     { "course_id": "MU-199", "course_title": "Music Video Production", "instructor": "Mozart",  "semester":"Spring-2010" , "prereq": [],"grade": "A-", "credits": 3 }
+  ],
+  "advisor": "Mozart"
+}
+{
+  "ID": "76543",
+  "name": "Brown",
+  "department":  "Comp. Sci.",
+  "total_credit":58,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [], "grade": "A", "credits": 4 },
+     { "course_id": "CS-319", "course_title": "Image Processing",  "instructor": "Katz",  "semester":"Spring-2010" , "prereq": ["CS-101"], "grade": "A", "credits": 3}
+  ],
+  "advisor": "Katz"
+}
+{
+  "ID": "76653",
+  "name": "Aoi",
+  "department":  "Elec. Eng.",
+  "total_credit": 60,
+  "takes": [
+     { "course_id": "EE-181", "course_title": "Intro. to Digital Systems", "instructor": "Kim",  "semester":"Spring-2009" , "prereq": ["PHY-101"],"grade": "C", "credits": 3 }
+  ],
+  "advisor": "Kim"
+}
+{
+  "ID": "98765",
+  "name": "Bourikas",
+  "department":  "Elec. Eng.",
+  "total_credit":98,
+  "takes": [
+     { "course_id": "CS-101", "course_title": "Intro. to Computer Science", "instructor": "Srinivasan",  "semester":"Fall-2009" , "prereq": [], "grade": "C-", "credits": 4 },
+     { "course_id": "CS-315", "course_title": "Robotics",  "instructor": "Srinivasan",  "semester":"Spring-2010" , "prereq": ["CS-101","CS-190"], "grade": "B", "credits": 3}
+  ],
+  "advisor": "Kim"
+}
+{
+  "ID": "98988",
+  "name": "Tanaka",
+  "department":  "Biology",
+  "total_credit": 120,
+  "takes": [
+     { "course_id": "BIO-101", "course_title": "Intro. to Biology", "instructor": "Crick",  "semester":"Summer-2009" , "prereq": [], "grade": "A", "credits": 4 },
+     { "course_id": "BIO-301", "course_title": "Genetics",  "instructor": "Crick",  "semester":"Summer-2010" , "prereq": ["BIO-101"], "grade": "A-", "credits": 4}
+  ],
+  "advisor": "Crick"
+}
